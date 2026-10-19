@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="HH200606 — 在校学生，学习 Python 与 AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <radialGradient id="glowIndigo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#64748b" fill-opacity="0.20"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#dots)"/>
+  <circle cx="1030" cy="60" r="260" fill="url(#glowIndigo)"/>
+  <circle cx="150" cy="300" r="230" fill="url(#glowCyan)"/>
+
+  <g stroke="#0891b2" stroke-width="1.2" fill="none" opacity="0.35">
+    <path d="M905 118 L1010 84 L1108 132 L1128 226 L1012 256 L930 208 Z"/>
+    <path d="M905 118 L1012 256"/>
+    <path d="M1010 84 L1012 256"/>
+    <path d="M1108 132 L930 208"/>
+  </g>
+  <g fill="#0891b2">
+    <circle cx="905" cy="118" r="4.5" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;0.3;0.85" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1010" cy="84" r="4.5" opacity="0.85">
+      <animate attributeName="opacity" values="0.3;0.85;0.3" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1108" cy="132" r="4.5" opacity="0.85"/>
+    <circle cx="1128" cy="226" r="4.5" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;0.35;0.85" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1012" cy="256" r="4.5" opacity="0.85"/>
+    <circle cx="930" cy="208" r="4.5" opacity="0.85">
+      <animate attributeName="opacity" values="0.35;0.85;0.35" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="84" y="94" font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif"
+        font-size="14" font-weight="600" letter-spacing="5" fill="#0284c7">HELLO, WORLD</text>
+
+  <text x="84" y="186" font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif"
+        font-size="78" font-weight="800" letter-spacing="-1.5" fill="#0f172a">HH200606</text>
+
+  <rect x="86" y="206" width="96" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="width" values="96;190;96" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="86" y="254" font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif"
+        font-size="21" font-weight="400" fill="#475569">在校学生 · 从零学 Python 与 AI（LLM / PyTorch）</text>
+</svg>
