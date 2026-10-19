@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="200" viewBox="0 0 1040 200" role="img" aria-label="GitHub stats for HH200606">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .num { font: 800 34px 'Segoe UI','Microsoft YaHei',sans-serif; fill: #f8fafc; }
+    .lbl { font: 400 13px 'Segoe UI','Microsoft YaHei',sans-serif; fill: #94a3b8; }
+    .hdr { font: 600 12px 'Segoe UI','Microsoft YaHei',sans-serif; fill: #38bdf8; letter-spacing: 3px; }
+    .lang { font: 400 14px 'Segoe UI','Microsoft YaHei',sans-serif; fill: #cbd5e1; }
+    .upd { font: 400 11px 'Segoe UI','Microsoft YaHei',sans-serif; fill: #64748b; }
+  </style>
+  <rect x="0.5" y="0.5" width="1039" height="199" rx="16" fill="url(#bg)" stroke="#1f2a3a"/>
+  <text x="56" y="56" class="hdr">GITHUB 数据</text>
+  <rect x="56" y="68" width="56" height="3" rx="1.5" fill="url(#rule)"/>
+  <text x="56" y="120" class="num">7</text><text x="56" y="150" class="lbl">贡献总数</text><text x="194" y="120" class="num">3</text><text x="194" y="150" class="lbl">公开仓库</text><text x="332" y="120" class="num">0</text><text x="332" y="150" class="lbl">Star</text><text x="470" y="120" class="num">0</text><text x="470" y="150" class="lbl">关注者</text><text x="608" y="120" class="num">1</text><text x="608" y="150" class="lbl">连续天数</text>
+  <line x1="752" y1="88" x2="752" y2="156" stroke="#1f2a3a"/>
+  <circle cx="792" cy="99" r="5" fill="#f1e05a"/><text x="808" y="104" class="lang">JavaScript</text>
+  <text x="968" y="182" text-anchor="end" class="upd">更新于 2026-10-19</text>
+</svg>
