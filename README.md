@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/HH200606/HH200606@main/assets/banner-dark.svg">
@@ -70,8 +70,9 @@
 | :--- | :--- | :--- |
 | [北京四合院 · 布局图解](https://hh200606.github.io/siheyuan/) | 等轴测拆解北京四合院：一进 / 二进 / 三进三种形制，逐间点开看位置与礼制，深链可分享 | Canvas 2D · 原生 JS |
 | [Neon Serpent · 霓虹贪吃蛇](https://hh200606.github.io/neon-serpent/) | 零依赖 Canvas 小游戏，键盘与触屏双支持，连击加分、音效由 WebAudio 现场合成 | Canvas 2D · WebAudio |
+| [四合檐影 · 构件识别](https://github.com/HH200606/siheyuan-vision) | 五关识图：窗棂 / 门墩 / 砖雕 / 院门 / 檐部，连击计分、答错科普、通关发证书 | Python · Pygame |
 
-> 两个项目都是零依赖、无构建、直接部署在 GitHub Pages：源码见 [siheyuan](https://github.com/HH200606/siheyuan) 与 [neon-serpent](https://github.com/HH200606/neon-serpent)，均为 MIT 许可。
+> 前两个项目零依赖、无构建、直接部署在 GitHub Pages：源码见 [siheyuan](https://github.com/HH200606/siheyuan)、[neon-serpent](https://github.com/HH200606/neon-serpent) 与 [siheyuan-vision](https://github.com/HH200606/siheyuan-vision)，均为 MIT 许可。
 
 ---
 
